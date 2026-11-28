@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self' https://api.github.com https://ntfy.sh; img-src 'self' data:; worker-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f8f5f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1111" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Ring">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Ring</title>
+<link rel="apple-touch-icon" href="i.png">
+<link rel="icon" href="i.png">
+<style id="s0">
+:root { color-scheme: light dark; --g: light-dark(#f8f5f1, #0e1111); --f: light-dark(#fcfbf8, #141818); --t: light-dark(#172123, #f0eeeb); --t2: light-dark(#4e5758, #b4bbbb); --p: light-dark(#006775, #58bcca); --l: light-dark(#cfccc5, #454c4d); }
+html, body, body * { touch-action: pan-x pan-y; }
+body { margin: 0; background: var(--g); color: var(--t); font: 16px/24px "Avenir Next", "Avenir", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+#s { min-height: 100dvh; box-sizing: border-box; display: grid; align-content: center; gap: 14px; max-width: 400px; margin: 0 auto; padding: calc(24px + env(safe-area-inset-top)) 24px calc(24px + env(safe-area-inset-bottom)); }
+#s img { width: 72px; height: 72px; border-radius: 17px; }
+#s h1 { font-size: 24px; line-height: 30px; font-weight: 600; margin: 4px 0 0; }
+#s p, #s li { margin: 0; color: var(--t2); } #s ol { margin: 0; padding-left: 22px; display: grid; gap: 8px; } #s b { color: var(--t); font-weight: 600; }
+#s input { font: 600 17px/24px "Avenir Next", system-ui, sans-serif; letter-spacing: .04em; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--l); background: var(--f); color: var(--t); width: 100%; box-sizing: border-box; }
+#s button { font: 600 16px/24px "Avenir Next", system-ui, sans-serif; padding: 12px 18px; border-radius: 10px; border: 0; background: var(--p); color: var(--g); }
+#s button.leise { background: none; color: var(--t2); font-weight: 500; padding: 8px; }
+#s .teilen { display: inline-block; vertical-align: -3px; width: 18px; height: 18px; }
+#s .fehler { color: light-dark(#b33830, #ee8679); }
+</style>
+</head>
+<body><div id="s"><p>Wird geladen …</p></div>
+<script src="s.js"></script>
+</body>
+</html>
